@@ -4,6 +4,9 @@
 # BISC481 Homework 3 - Questions #7+8
 ######
 
+## assumes previous installation of Bioconductor package from Q4.R
+## if run independently, run lines 10, 11, and 13 from Q4.R before proceeding with the rest of this script
+
 ## install packages
 install.packages("caret")
 install.packages("e1071")

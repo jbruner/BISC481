@@ -1,10 +1,10 @@
 ######
 # Jordan Bruner jbruner@usc.edu
-# 10-25-16
+# 10-21-16
 # BISC481 Homework 3 - Question #5
 ######
 
-## install packages
+## install packages and initialize
 install.packages("ggplot2")
 install.packages("grid")
 library(ggplot2)
@@ -24,7 +24,7 @@ my.theme <- theme(
   axis.ticks = element_line(colour = "black")
 )
 
-## enter data from Question #4 answer with 1-mer model results as data1 values 
+## enter data from Question #4 answers with 1-mer model results as data1 values 
 # on the X-axis and 1-mer+shape results as data2 values on the Y-axis
 data1 <- c(0.7752518, 0.785396, 0.7777121)
 data2 <- c(0.8626773, 0.8642745, 0.8545602)
